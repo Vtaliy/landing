@@ -1,4 +1,11 @@
 /* SECTIONS */
+
+.wrapp-section.section-header, .wrapp-section.section-why,.wrapp-section-slider__portfoglio, .wrapp-section-choose {
+	width: 1280px;
+	max-width: 100%;
+	margin: 0 auto;
+	}
+
 .section.section-header {
     display: inline-block;
     background-color: #fecc00;
@@ -15,12 +22,12 @@
 
 .select_package {
     border: 3px solid black;
-    padding: 5px 25px;
+    padding: 0px 21px;
     border-radius: 2px;
     background-color: #ffffff;
     position: absolute;
-    bottom: 16%;
-    left: 52%;
+    bottom: 14%;
+    left: 51%;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
@@ -35,9 +42,9 @@
     position: absolute;
     width: 200%;
     height: 203%;
-    bottom: 120%;
-    right: 62%;
-    transform: scale(1.25);
+    bottom: 131%;
+    right: 47%;
+    transform: scale(1.00);
 }
 
 .select_package span {
@@ -130,6 +137,7 @@
 
 .section-slider__portfoglio {
     position: relative;
+	overflow: hidden;
 }
 
 .s-choose {
@@ -153,7 +161,7 @@
 
 .section-choose__item {
     display: inline-block;
-    width: 32.99%;
+    width: 32.96%;
     vertical-align: top;
     margin-right: 0.2%;
 }
